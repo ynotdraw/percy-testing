@@ -1,6 +1,16 @@
 import { LitElement, html, css } from 'lit';
 import { classMap } from 'lit/directives/class-map.js';
 
+/**
+ * Documentation for the button.
+ * Mostly testing Percy and how it acts with 0 visual changes
+ * to ensure no visual regressions if we didn't change anything...
+ *
+ * Had to configure the integration in Percy...
+ * so doing another commit.
+ *
+ * Currently sitting at 32 screenshots.
+ */
 export class DSButton extends LitElement {
   static styles = css`
     .component {
@@ -78,7 +88,6 @@ export class DSButton extends LitElement {
 
   constructor() {
     super();
-
     this.size = 'large';
     this.variant = 'primary';
   }
