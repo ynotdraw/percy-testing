@@ -46,7 +46,7 @@ export class DSButton extends LitElement {
 
     .primary {
       background-color: var(--glide-core-surface-primary);
-      border-color: transparent;
+      border-color: red;
       color: var(--glide-core-text-selected);
 
       &:hover {
